@@ -466,3 +466,9 @@ img.LogoEntrada {
 @media screen and (max-width: 1024px) {
   .Titulo {
     text-align: center; } }
+
+nav ul li {
+  font-family: 'Dancing Script';
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black; }
