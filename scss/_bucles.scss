@@ -1,0 +1,13 @@
+@for $i from 1 through 100 {
+    .w-#{$i} { width: 1%*$i; }
+  }
+  
+@mixin flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@each $enlace, $sombra in $enlaces {
+  .#{$enlace}:hover {
+    border-bottom: 1px solid $sombra;
+  }}

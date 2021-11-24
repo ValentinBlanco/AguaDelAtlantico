@@ -1,0 +1,92 @@
+body{margin: 0 auto;
+
+    width: 100%;
+
+    background-image: url(../images/FondoBotella.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;}
+#fondo1 {
+    background-image: url(../images/tipos-de-hielo-1688x844.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100px 100px 0px 0px;
+    z-index: 0  ;
+}
+html{
+
+    box-sizing: border-box;
+
+    background-color: blue ;}
+
+.w-40{width: 40%;}
+
+.Header{
+        z-index: -2;
+        background-image: url(../images/gotas.jpg);
+        background-size: 100%;}
+
+nav{box-shadow: $box-shadow-bottom-only;}
+
+.Imagenes{
+    object-fit: contain}
+
+.ImagenAjust{
+    width: 25%;
+}
+@media only screen and (max-width: 1024px) and (min-width:992px){
+    .ImagenAjust{width: 40% ;}
+}
+@media only screen and (max-width: 992px){
+    .ImagenAjust{width: 75% ;}
+}
+
+
+.BotonTamaño {
+    font-size: 2rem;
+    
+}
+.SeccionProd{
+    border-radius: 100px 100px 10px 10px;
+}
+.Footer{
+    @include flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid;
+    ul{
+        width: 30%;
+        align-items: flex-start;
+    }
+    li{
+        list-style: none;
+        
+        a {
+            outline: none;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            border-bottom: 1px solid;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px)  {
+    .Footer{
+        border-top: 0.5px solid;
+        border-left: none;
+        margin-bottom: 1rem;
+        h3{margin-top: 1rem;
+            margin-bottom: 1rem;
+            }
+        ul{display: inline;}
+        li{display: inline;
+            margin: 1rem;
+        }
+    }
+    
+}

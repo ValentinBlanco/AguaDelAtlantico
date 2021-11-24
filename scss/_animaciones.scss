@@ -1,0 +1,34 @@
+/* Animaciones */
+img.Header__Logo{
+    animation: bounceIn;
+    animation-duration: 3s;
+}
+.Expand {
+    transition: height 1s, width 1s;
+    cursor: pointer;
+   }
+.Expand:hover {
+   transform: scale(1.1);
+   }
+
+img.LogoEntrada{
+    animation: backInLeft;
+    animation-duration: 2s;
+}
+
+.Sorteo{
+    opacity: 0.75;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.Sorteo:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .Expand:hover {transform: none;}
+}
+
+@media only screen and (max-width: 992px) {
+    .Sorteo {opacity: 1;}
+}
