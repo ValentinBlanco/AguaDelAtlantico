@@ -418,6 +418,46 @@ nav {
       display: inline;
       margin: 1rem; } }
 
+.FotoCirc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-attachment: local;
+  border-radius: 50%;
+  background-position: center center;
+  width: 35rem;
+  height: 35rem;
+  transition: all ease-out 0.5s; }
+  .FotoCirc .PrecioBidon {
+    opacity: 0; }
+
+.FotoCirc:hover {
+  transition: all ease 1s; }
+  .FotoCirc:hover .PrecioBidon {
+    opacity: 1;
+    background-color: rgba(0, 174, 255, 0.6);
+    transition-duration: 0.5s;
+    border-radius: 50%; }
+
+.FondoP1 {
+  background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
+
+.FondoP1:hover {
+  background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
+
+.FondoP2 {
+  background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
+
+.FondoP2:hover {
+  background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
+
+.FondoP3 {
+  background-image: url(../images/AguaDelAtlantico/Dispenser1ple.jpg); }
+
+.FondoP3:hover {
+  background-image: url(../images/AguaDelAtlantico/Dispenser2bl.jpg); }
+
 /* Animaciones */
 img.Header__Logo {
   animation: bounceIn;
