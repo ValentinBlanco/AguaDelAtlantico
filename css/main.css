@@ -443,20 +443,37 @@ nav {
 .FondoP1 {
   background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
 
-.FondoP1:hover {
-  background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
-
 .FondoP2 {
   background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
-
-.FondoP2:hover {
-  background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
 
 .FondoP3 {
   background-image: url(../images/AguaDelAtlantico/Dispenser2.jpg); }
 
-.FondoP3:hover {
-  background-image: url(../images/AguaDelAtlantico/Dispenser1ple.jpg); }
+@media only screen and (min-width: 993px) {
+  .FondoP1:hover {
+    background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
+  .FondoP2:hover {
+    background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
+  .FondoP3:hover {
+    background-image: url(../images/AguaDelAtlantico/Dispenser1ple.jpg); } }
+
+@media only screen and (max-width: 992px) {
+  .FotoCirc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: local;
+    border-radius: 50%;
+    background-position: center center;
+    width: 35rem;
+    height: 35rem;
+    transition: all ease-out 0.5s; }
+    .FotoCirc .PrecioBidon {
+      opacity: 1;
+      background-color: rgba(0, 174, 255, 0.6);
+      transition-duration: 0.5s;
+      border-radius: 50%; } }
 
 /* Animaciones */
 img.Header__Logo {
