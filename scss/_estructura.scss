@@ -45,12 +45,16 @@ nav{box-shadow: $box-shadow-bottom-only;}
 }
 
 
-.BotonTamaño {
+.BotonInicio {
+    margin: 0.2rem;
     font-size: 2rem;
-    
+    background-color: $ColorBoton;
+    color: $White;
+    box-shadow: $SombraBoton;
+    font-family: 'Dancing Script';
 }
 .SeccionProd{
-    border-radius: 100px 100px 10px 10px;
+    border-radius: 100px 100px 20px 20px;
 }
 .Footer{
     @include flex;

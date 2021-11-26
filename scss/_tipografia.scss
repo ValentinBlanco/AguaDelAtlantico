@@ -12,9 +12,19 @@
     margin: 5px;
     text-transform: uppercase;
 }
+.TextoInicio{
+    font-size: 1.5rem;
+}
+.TextoBoton{
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 1024px){
     .Titulo {
+        text-align: center;
+    }
+    .TextoInicio{
         text-align: center;
     }
 }
