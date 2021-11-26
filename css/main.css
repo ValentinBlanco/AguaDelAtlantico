@@ -382,7 +382,7 @@ nav {
 .BotonInicio {
   margin: 0.2rem;
   font-size: 2rem;
-  background-color: rgba(8, 243, 173, 0.5);
+  background-color: rgba(8, 243, 243, 0.5);
   color: white;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
   font-family: 'Dancing Script'; }
