@@ -148,7 +148,7 @@ nav{box-shadow: $box-shadow-bottom-only;}
             align-items: center;
             background-size: cover;
             background-attachment:local;
-            border-radius: 10%;
+            border-radius: 5%;
             background-position: center center;
             width: 35rem;
             height: 35rem   ;
@@ -157,7 +157,7 @@ nav{box-shadow: $box-shadow-bottom-only;}
                 opacity: 1;
                 background-color: $PrecioA;
                 transition-duration: 0.5s;
-                border-radius: 10%;
+                border-radius: 5%;
             }
         }
     }

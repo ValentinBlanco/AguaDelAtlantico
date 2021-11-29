@@ -487,7 +487,7 @@ nav {
     align-items: center;
     background-size: cover;
     background-attachment: local;
-    border-radius: 10%;
+    border-radius: 5%;
     background-position: center center;
     width: 35rem;
     height: 35rem;
@@ -496,7 +496,7 @@ nav {
       opacity: 1;
       background-color: rgba(0, 174, 255, 0.6);
       transition-duration: 0.5s;
-      border-radius: 10%; } }
+      border-radius: 5%; } }
 
 .nav-item {
   margin-right: 5rem; }
