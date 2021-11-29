@@ -9,5 +9,11 @@
 
 @each $enlace, $sombra in $enlaces {
   .#{$enlace}:hover {
-    border-bottom: 1px solid $sombra;
+    border-bottom: 2px solid $sombra;
   }}
+
+@each $enlace, $sombra in $enlaces {
+    .Activo#{$enlace} {
+      border-bottom: 2px solid $sombra;
+      font-size: $FuenteNav*1.1;
+    }}

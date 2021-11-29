@@ -300,13 +300,32 @@
   width: 100%; }
 
 .Precios:hover {
-  border-bottom: 1px solid yellow; }
+  border-bottom: 2px solid yellow; }
 
 .Productos:hover {
-  border-bottom: 1px solid blue; }
+  border-bottom: 2px solid blue; }
 
 .Ubicacion:hover {
-  border-bottom: 1px solid red; }
+  border-bottom: 2px solid red; }
+
+.Contacto:hover {
+  border-bottom: 2px solid green; }
+
+.ActivoPrecios {
+  border-bottom: 2px solid yellow;
+  font-size: 1.65rem; }
+
+.ActivoProductos {
+  border-bottom: 2px solid blue;
+  font-size: 1.65rem; }
+
+.ActivoUbicacion {
+  border-bottom: 2px solid red;
+  font-size: 1.65rem; }
+
+.ActivoContacto {
+  border-bottom: 2px solid green;
+  font-size: 1.65rem; }
 
 .bg-Lblue {
   background-color: #00d9ff; }
@@ -428,7 +447,7 @@ nav {
   align-items: center;
   background-size: cover;
   background-attachment: local;
-  border-radius: 50%;
+  border-radius: 10%;
   background-position: center center;
   width: 35rem;
   height: 35rem;
@@ -442,7 +461,7 @@ nav {
     opacity: 1;
     background-color: rgba(0, 174, 255, 0.6);
     transition-duration: 0.5s;
-    border-radius: 50%; }
+    border-radius: 10%; }
 
 .FondoP1 {
   background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
@@ -468,7 +487,7 @@ nav {
     align-items: center;
     background-size: cover;
     background-attachment: local;
-    border-radius: 50%;
+    border-radius: 10%;
     background-position: center center;
     width: 35rem;
     height: 35rem;
@@ -477,7 +496,10 @@ nav {
       opacity: 1;
       background-color: rgba(0, 174, 255, 0.6);
       transition-duration: 0.5s;
-      border-radius: 50%; } }
+      border-radius: 10%; } }
+
+.nav-item {
+  margin-right: 5rem; }
 
 /* Animaciones */
 img.Header__Logo {
