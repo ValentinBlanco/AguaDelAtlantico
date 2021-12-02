@@ -340,10 +340,10 @@
   background: linear-gradient(#00d9ff, blue); }
 
 .c-violet {
-  color: #702294; }
+  color: #4f10b4; }
 
 .bg-violet {
-  background-color: #702294; }
+  background-color: #4f10b4; }
 
 .c-white {
   color: white; }
@@ -367,6 +367,14 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 100px 100px 0px 0px;
+  z-index: 0; }
+
+#fondoPrecios {
+  background-image: url(../images/BannerGota.jpg);
+  background-size: cover;
+  background-attachment: local;
+  background-repeat: repeat-y;
+  background-position: bottom center;
   z-index: 0; }
 
 html {
@@ -535,11 +543,15 @@ img.LogoEntrada {
 
 .Titulo {
   font-weight: bold;
-  margin-top: 5px;
-  text-transform: uppercase; }
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(0, 174, 255, 0.6); }
 
 .Titulo--Resaltado {
-  color: #702294; }
+  color: #4f10b4; }
 
 .TituloPres {
   font-weight: bold;
