@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Aca podras encontrar una lista con todos los productos de la empresa Agua del atlantico">
+  <meta name="description"
+    content="Aca podras encontrar una lista con todos los productos de la empresa Agua del atlantico">
   <meta name="keywords" content="Agua, Agua envasada, Agua de mesa, Potable, Servicio de agua, Productos de agua">
   <link rel="stylesheet" href="../css/bootstrap.css" />
   <link rel="stylesheet" href="../css/main.css" />
@@ -18,40 +19,34 @@
 </head>
 
 <body>
-     <!-- Header de la pagina -->
-     <header class="Header">
-
-      <div class="text-center">
-          <img class="img-fluid Header__Logo" src="../images/LOGO.png" alt="Logo" width="30%" />
-      </div>
-  </header>
   <!-- Barra de navegacion -->
-  
+
   <nav class="navbar navbar-expand-lg navbar-light bg-Lblue sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="../index.html"><img src="../images/LOGO2.png" alt="logo" class="w-40 Expand img-fluid"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link Precios Expand" aria-current="page" href="../pages/precios.html">Precios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ActivoProductos Productos" href="../pages/productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link Expand Ubicacion" href="../pages/ubicacion.html">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link Expand Contacto" href="../pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="../index.html"><img src="../images/LOGO2.png" alt="logo"
+          class="w-40 Expand img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link Precios Expand" aria-current="page" href="../pages/precios.html">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ActivoProductos Productos" href="../pages/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Expand Ubicacion" href="../pages/ubicacion.html">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Expand Contacto" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
   <!-- Cuerpo de pagina -->
   <main class="container-fluid bg-gradblue">
@@ -60,14 +55,16 @@
 
       <div class="col-12 col-lg-6">
         <div>
-          <h1 class="display-1 Titulo">Nuestros <span class="c-violet">Productos</span></h1>
+          <h1 class="display-2 Titulo mx-5">Nuestros <span class="c-violet">Productos</span></h1>
         </div>
         <div>
-          <p class="text-center fs-5">Queremos que nuestros clientes tengan una mayor comodidad haciendo asi que puedan
+          <p class="fs-5 mx-5">Queremos que nuestros clientes tengan una mayor comodidad haciendo asi que puedan
             seleccionar sus productos de forma simple y conveniente para el ambiente de su hogar.</p>
         </div>
+
+        
         <div>
-          <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion mx-3" id="accordionPanelsStayOpenExample">
             <div class="accordion-item bg-Lblue">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button class="accordion-button bg-Lblue fw-bold" type="button" data-bs-toggle="collapse"
@@ -121,8 +118,8 @@
 
       </div>
 
-      <div class="col-12 col-lg-6 py-5">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="col-12 col-lg-6 my-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 mx-5" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -135,7 +132,7 @@
             <div class="carousel-item active" data-bs-interval="10000">
               <img src="../images/AguaDelAtlantico/Dispenser2.jpg" class="d-block w-100 img-fluid rounded"
                 alt="DispenserSimple">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block Info rounded">
                 <h5>Dispenser Simple</h5>
                 <p>Un diseño confortable para colocar en cualquier sitio.</p>
               </div>
@@ -143,7 +140,7 @@
             <div class="carousel-item" data-bs-interval="2000">
               <img src="../images/AguaDelAtlantico/Dispenser2ble.jpg" class="d-block w-100 img-fluid rounded"
                 alt="DispenserFrioCalor">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block Info rounded">
                 <h5>Dispenser Frio/Calor</h5>
                 <p>Un modelo para sacarle el mayor provecho a nuestra agua.</p>
               </div>
@@ -152,7 +149,7 @@
               <!--FALTA AGREGAR FOTO DE BIDON CHICO -->
               <img src="../images/AguaDelAtlantico/Bidon2.jpg" class="d-block w-100 img-fluid rounded"
                 alt="Bidon Chico">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block Info rounded">
                 <h5>Bidón 12L</h5>
                 <p>Bidón de un tamaño más chico para mayor comodidad.</p>
               </div>
@@ -175,45 +172,45 @@
 
   </main>
 
-    <!-- Pie de la pagina -->
-    <footer class="container-fluid bg-Lblue p-3">
-      <div class="row align-items-center text-center">
-          <div class="col-12 col-lg-4 d-flex FootRedes justify-content-center">
-              <div>
-                  <h3 class="fw-bold fs-5 fst-italic">Redes Sociales</h3>
-                  <ul class="justify-content-evenly align-items-center list-group list-group-horizontal">
-                      <li class="pe-5 list-group-item bg-Lblue border-0"><a target="_blank"
-                              href="https://www.instagram.com/aguadelatlantico/"><img src="../images/bxl-instagram.png"
-                                  alt=""></a></li>
-                      <li class="pe-5 list-group-item bg-Lblue border-0"><a target="_blank"
-                              href="https://wa.link/rk7hmo"><img src="../images/bxl-whatsapp.png" alt=""></a></li>
-                      <li class="list-group-item bg-Lblue border-0"><a target="_blank" href="#"><img
-                                  src="../images/bxl-facebook-circle.png" alt=""></a></li>
-                  </ul>
-              </div>
-          </div>
-
-          <div class="col-12 col-lg-4 Footer">
-              <h3 class="fw-bold fs-5 fst-italic">Contacto</h3>
-              <ul class="list-group">
-                  <li><a href="#">Telefono</a></li>
-                  <li><a href="#">Ubicacion</a></li>
-                  <li><a href="#">Email</a></li>
-              </ul>
-          </div>
-
-          <div class="col-12 col-lg-4 Footer">
-              <h3 class="fw-bold fs-5 fst-italic">Encuentra</h3>
-
-              <ul class="list-group">
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Productos</a></li>
-                  <li><a href="#">Precios</a></li>
-                  <li><a href="#">Ubicacion</a></li>
-              </ul>
-
-          </div>
+  <!-- Pie de la pagina -->
+  <footer class="container-fluid bg-Lblue p-3">
+    <div class="row align-items-center text-center">
+      <div class="col-12 col-lg-4 d-flex FootRedes justify-content-center">
+        <div>
+          <h3 class="fw-bold fs-5 fst-italic">Redes Sociales</h3>
+          <ul class="justify-content-evenly align-items-center list-group list-group-horizontal">
+            <li class="pe-5 list-group-item bg-Lblue border-0"><a target="_blank"
+                href="https://www.instagram.com/aguadelatlantico/"><img src="../images/bxl-instagram.png" alt=""></a>
+            </li>
+            <li class="pe-5 list-group-item bg-Lblue border-0"><a target="_blank" href="https://wa.link/rk7hmo"><img
+                  src="../images/bxl-whatsapp.png" alt=""></a></li>
+            <li class="list-group-item bg-Lblue border-0"><a target="_blank" href="#"><img
+                  src="../images/bxl-facebook-circle.png" alt=""></a></li>
+          </ul>
+        </div>
       </div>
+
+      <div class="col-12 col-lg-4 Footer">
+        <h3 class="fw-bold fs-5 fst-italic">Contacto</h3>
+        <ul class="list-group">
+          <li><a href="#">Telefono</a></li>
+          <li><a href="#">Ubicacion</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-4 Footer">
+        <h3 class="fw-bold fs-5 fst-italic">Encuentra</h3>
+
+        <ul class="list-group">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Precios</a></li>
+          <li><a href="#">Ubicacion</a></li>
+        </ul>
+
+      </div>
+    </div>
   </footer>
 
   <!-- scripts -->

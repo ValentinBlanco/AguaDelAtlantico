@@ -24,6 +24,9 @@ body{margin: 0 auto;
     background-position: bottom center;
     z-index: 0  ;
 }
+.FondoPrecio{
+    background-color: $PrecioA;
+}
 html{
 
     box-sizing: border-box;
@@ -45,6 +48,7 @@ nav{box-shadow: $box-shadow-bottom-only;}
 .ImagenAjust{
     width: 25%;
 }
+
 @media only screen and (max-width: 1024px) and (min-width:992px){
     .ImagenAjust{width: 40% ;}
 }
@@ -172,4 +176,12 @@ nav{box-shadow: $box-shadow-bottom-only;}
 
     .nav-item{
         margin-right: 5rem;
+    }
+
+    .CarruselProd{
+        width: 75%;
+    }
+    .Info{
+        background-color: $PrecioA;
+        border-radius: 50%;
     }

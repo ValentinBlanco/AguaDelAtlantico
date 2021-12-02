@@ -351,6 +351,9 @@
 .bg-presentacion {
   background: linear-gradient(to left top, #0c5bd1, white); }
 
+.bg-tenue {
+  background: rgba(0, 174, 255, 0.6); }
+
 body {
   margin: 0 auto;
   width: 100%;
@@ -376,6 +379,9 @@ body {
   background-repeat: repeat-y;
   background-position: bottom center;
   z-index: 0; }
+
+.FondoPrecio {
+  background-color: rgba(0, 174, 255, 0.6); }
 
 html {
   box-sizing: border-box;
@@ -509,6 +515,13 @@ nav {
 .nav-item {
   margin-right: 5rem; }
 
+.CarruselProd {
+  width: 75%; }
+
+.Info {
+  background-color: rgba(0, 174, 255, 0.6);
+  border-radius: 50%; }
+
 /* Animaciones */
 img.Header__Logo {
   animation: bounceIn;
@@ -546,9 +559,8 @@ img.LogoEntrada {
   margin: 0;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: rgba(0, 174, 255, 0.6); }
+  text-align: start;
+  text-transform: uppercase; }
 
 .Titulo--Resaltado {
   color: #4f10b4; }
