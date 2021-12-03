@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 .Titulo--Resaltado {
-    color: $Violet;
+    color: $Resaltado;
 }
 
 .TituloPres{
@@ -39,6 +39,23 @@ nav{
             font-size: $FuenteNav;
             font-weight: bolder;
             color: black;
+        }
+    }
+}
+
+.TextoFondo{
+    h2{
+        padding: 2rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media  screen and (max-width: 992px) {
+    .TextoFondo{
+        h2{
+        font-size: 1.1rem;
+        font-weight: 640;
         }
     }
 }

@@ -300,31 +300,31 @@
   width: 100%; }
 
 .Precios:hover {
-  border-bottom: 2px solid yellow; }
-
-.Productos:hover {
   border-bottom: 2px solid blue; }
 
+.Productos:hover {
+  border-bottom: 2px solid #0064ff; }
+
 .Ubicacion:hover {
-  border-bottom: 2px solid red; }
+  border-bottom: 2px solid #0096ff; }
 
 .Contacto:hover {
-  border-bottom: 2px solid green; }
+  border-bottom: 2px solid #00afff; }
 
 .ActivoPrecios {
-  border-bottom: 2px solid yellow;
-  font-size: 1.65rem; }
-
-.ActivoProductos {
   border-bottom: 2px solid blue;
   font-size: 1.65rem; }
 
+.ActivoProductos {
+  border-bottom: 2px solid #0064ff;
+  font-size: 1.65rem; }
+
 .ActivoUbicacion {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #0096ff;
   font-size: 1.65rem; }
 
 .ActivoContacto {
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid #00afff;
   font-size: 1.65rem; }
 
 .bg-Lblue {
@@ -339,10 +339,10 @@
 .bg-gradblue {
   background: linear-gradient(#00d9ff, blue); }
 
-.c-violet {
+.c-resaltado {
   color: #4f10b4; }
 
-.bg-violet {
+.bg-resaltado {
   background-color: #4f10b4; }
 
 .c-white {
@@ -353,6 +353,9 @@
 
 .bg-tenue {
   background: rgba(0, 174, 255, 0.6); }
+
+.bg-texto {
+  background: rgba(0, 0, 0, 0.15); }
 
 body {
   margin: 0 auto;
@@ -374,6 +377,14 @@ body {
 
 #fondoPrecios {
   background-image: url(../images/BannerGota.jpg);
+  background-size: cover;
+  background-attachment: local;
+  background-repeat: repeat-y;
+  background-position: bottom center;
+  z-index: 0; }
+
+#fondoProd {
+  background-image: url(../images/BannerAgua.jpg);
   background-size: cover;
   background-attachment: local;
   background-repeat: repeat-y;
@@ -518,9 +529,28 @@ nav {
 .CarruselProd {
   width: 40%; }
 
+@media only screen and (max-width: 992px) {
+  .CarruselProd {
+    width: 100%; } }
+
+@media only screen and (max-width: 1350px) and (min-width: 993px) {
+  .CarruselProd {
+    width: 50%; } }
+
 .Info {
-  background-color: rgba(0, 174, 255, 0.6);
-  border-radius: 50%; }
+  background-color: rgba(0, 174, 255, 0.6); }
+
+.TextoFondo {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px 10px 10px 10px; }
+
+@media screen and (max-width: 992px) {
+  .TextoFondo {
+    margin-left: 1rem;
+    margin-right: 1rem; } }
 
 /* Animaciones */
 img.Header__Logo {
@@ -588,3 +618,12 @@ nav ul li {
   font-size: 1.5rem;
   font-weight: bolder;
   color: black; }
+
+.TextoFondo h2 {
+  padding: 2rem;
+  font-size: 2rem; }
+
+@media screen and (max-width: 992px) {
+  .TextoFondo h2 {
+    font-size: 1.1rem;
+    font-weight: 640; } }
