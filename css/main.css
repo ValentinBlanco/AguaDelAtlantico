@@ -399,8 +399,22 @@ body {
   background-position: bottom center;
   z-index: 0; }
 
+#fondoFooter {
+  background-image: url(../images/);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: bottom center;
+  z-index: 0; }
+
 .FondoPrecio {
   background-color: rgba(0, 174, 255, 0.6); }
+
+.FondoFooter {
+  background-color: rgba(0, 174, 255, 0.705); }
+
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0); }
 
 html {
   box-sizing: border-box;

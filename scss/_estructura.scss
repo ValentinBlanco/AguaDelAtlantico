@@ -40,8 +40,22 @@ body{margin: 0 auto;
     background-position: bottom center;
     z-index: 0  ;
 }
+#fondoFooter {
+    background-image: url(../images/);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: bottom center;
+    z-index: 0  ;
+}
 .FondoPrecio{
     background-color: $PrecioA;
+}
+.FondoFooter{
+    background-color: $FooterItem;
+}
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0);
 }
 html{
 
