@@ -51,6 +51,9 @@ body{margin: 0 auto;
 .FondoPrecio{
     background-color: $PrecioA;
 }
+.FondoPedido{
+    background-color: $FondoPedido;
+}
 .FondoFooter{
     background-color: $FooterItem;
 }
@@ -90,6 +93,14 @@ nav{box-shadow: $box-shadow-bottom-only;}
 .BotonInicio {
     margin: 0.2rem;
     font-size: 2rem;
+    background-color: $ColorBoton;
+    color: $White;
+    box-shadow: $SombraBoton;
+    font-family: 'Dancing Script';
+}
+.BotonPedido {
+    margin: 0.2rem;
+    font-size: 1.5rem;
     background-color: $ColorBoton;
     color: $White;
     box-shadow: $SombraBoton;
@@ -224,4 +235,14 @@ nav{box-shadow: $box-shadow-bottom-only;}
             margin-left: 1rem;
             margin-right: 1rem;
         }
+    }
+
+    .EstPedido{
+        padding: 3rem;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .InstaPubli{
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
     }

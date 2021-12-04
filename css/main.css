@@ -410,6 +410,9 @@ body {
 .FondoPrecio {
   background-color: rgba(0, 174, 255, 0.6); }
 
+.FondoPedido {
+  background-color: rgba(0, 174, 255, 0.705); }
+
 .FondoFooter {
   background-color: rgba(0, 174, 255, 0.705); }
 
@@ -448,6 +451,14 @@ nav {
 .BotonInicio {
   margin: 0.2rem;
   font-size: 2rem;
+  background-color: rgba(8, 243, 243, 0.5);
+  color: white;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Dancing Script'; }
+
+.BotonPedido {
+  margin: 0.2rem;
+  font-size: 1.5rem;
   background-color: rgba(8, 243, 243, 0.5);
   color: white;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
@@ -562,6 +573,14 @@ nav {
   .TextoFondo {
     margin-left: 1rem;
     margin-right: 1rem; } }
+
+.EstPedido {
+  padding: 3rem;
+  border-radius: 20px 20px 20px 20px; }
+
+.InstaPubli {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important; }
 
 /* Animaciones */
 img.Header__Logo {
