@@ -336,6 +336,9 @@
 .bg-Lblue3 {
   background-color: #0087ff; }
 
+.bg-Lblue4 {
+  background-color: #0064ff; }
+
 .bg-gradblue {
   background: linear-gradient(#00d9ff, blue); }
 
@@ -514,7 +517,7 @@ nav {
   background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
 
 .FondoP2 {
-  background-image: url(../images/AguaDelAtlantico/Bidon12.jpg); }
+  background-image: url(../images/AguaDelAtlantico/Bidon12L2.jpg); }
 
 .FondoP3 {
   background-image: url(../images/AguaDelAtlantico/Dispenser2.jpg); }
@@ -523,7 +526,7 @@ nav {
   .FondoP1:hover {
     background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
   .FondoP2:hover {
-    background-image: url(../images/AguaDelAtlantico/Bidon2.jpg); }
+    background-image: url(../images/AguaDelAtlantico/Bidon12L.jpg); }
   .FondoP3:hover {
     background-image: url(../images/AguaDelAtlantico/Dispenser1ple.jpg); } }
 
