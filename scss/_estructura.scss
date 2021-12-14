@@ -48,6 +48,17 @@ body{margin: 0 auto;
     background-position: bottom center;
     z-index: 0  ;
 }
+.LogoEntrada{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 40%;
+}
+@media only screen and (max-width: 1024px){
+    .LogoEntrada{
+        max-width: 50%;
+    }
+}
+
 .FondoPrecio{
     background-color: $PrecioA;
 }
