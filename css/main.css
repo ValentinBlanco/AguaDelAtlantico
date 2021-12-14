@@ -369,9 +369,9 @@ body {
   background-repeat: no-repeat;
   background-position: center center; }
 
-#fondo1 {
+#fondo11 {
   background-image: url(../images/tipos-de-hielo-1688x844.jpg);
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -477,7 +477,8 @@ nav {
   font-family: 'Dancing Script'; }
 
 .SeccionProd {
-  border-radius: 40px 40px 20px 20px; }
+  border-radius: 40px 40px 20px 20px;
+  margin: 0.7rem; }
 
 .Footer {
   border-left: 1px solid; }
@@ -494,7 +495,7 @@ nav {
   padding-top: 16px;
   margin-top: 1rem;
   text-align: center;
-  color: #00000050; }
+  color: #ffffff; }
   .FooterCopy h5 {
     margin: 0;
     margin-top: 1rem;
