@@ -595,21 +595,28 @@ nav {
 
 .FacePubli {
   border: 1px solid black !important;
+  width: 500px;
+  height: 720px;
   background: white;
-  border: 0;
+  max-width: 500px;
+  width: calc(100% - 2px);
   border-radius: 3px;
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-  margin: 1px;
-  max-width: 540px;
-  min-width: 326px;
-  padding: 0;
-  width: 99.375%;
-  width: -webkit-calc(100% - 2px);
-  width: calc(100% - 2px); }
+  border: 1px solid #dbdbdb;
+  box-shadow: none;
+  margin: 1rem;
+  padding: 0px; }
 
 .instagram-media {
   width: 500px;
-  height: 668px; }
+  height: 720px;
+  background: white;
+  max-width: 500px;
+  width: calc(100% - 2px);
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  box-shadow: none;
+  margin: 1rem;
+  padding: 0px; }
 
 .InputNombreApellido {
   width: 90%;
@@ -633,11 +640,20 @@ nav {
 
 @media screen and (max-width: 1200px) {
   .instagram-media {
+    width: 90% !important; }
+  .FacePubli {
     width: 90% !important; } }
 
 @media screen and (max-width: 992px) {
   .EstPedido {
-    width: 90%; } }
+    width: 90%;
+    margin: 2rem; }
+  .FacePubli {
+    height: 668px; } }
+
+@media screen and (max-width: 613px) {
+  .FacePubli {
+    height: 100%; } }
 
 @media screen and (max-width: 476px) {
   .EstPedido {
