@@ -257,16 +257,12 @@ nav{box-shadow: $box-shadow-bottom-only;}
         border-radius: 20px 20px 20px 20px;
     }
     .FacePubli{
-        max-width: 100%;
-        margin-top: 4rem !important;
-        margin-bottom: 4rem !important;
-        width: 75% !important;
+        border: 1px solid black !important;
+        background:rgb(255, 255, 255); border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);
     }
-    .InstaPubli{
-        margin-top: 4rem !important;
-        margin-bottom: 4rem !important;
-        width: 50% !important; 
-        max-width: 100%;
+    .instagram-media{
+        width: 500px ;
+        height: 668px ;
     }
 
     .InputNombreApellido{
@@ -278,11 +274,11 @@ nav{box-shadow: $box-shadow-bottom-only;}
         margin: 1rem;
     }
     .InputProducto{
-        width: 80%;
+        width: 90%;
         margin: 1rem;
     }
     .InputCantidad{
-        width: 80%;
+        width: 90%;
         margin: 1rem;
     }
     .InputComentario{
@@ -292,44 +288,49 @@ nav{box-shadow: $box-shadow-bottom-only;}
 
 
     @media  screen and (max-width: 1200px) {
-        .InstaPubli{
-            margin-top: 0px;
-            
+        .instagram-media{
+            width: 90% !important;
         }
         .FacePubli{
-            width: 100% !important;
-            height: auto;
+          
 
         }
     }
     @media  screen and (max-width: 992px){
         .EstPedido{
-            width: 75%;
+            width: 90%;
         }
     }
     @media  screen and (max-width: 476px){
+        .EstPedido{
+            width: 90%;
+            padding: 2rem;
+        }
         .InputNombreApellido{
             width: 100%;
-            margin: 0;
+            margin: 0rem;
         }
         .InputDireccion{
             width: 100%;
+            margin: 0rem;
             margin-top: 1rem;
         }
         .InputProducto{
             width: 100%;
+            margin: 0rem;
             margin-top: 1rem;
         }
         .InputCantidad{
             width: 100%;
+            margin: 0rem;
             margin-top: 1rem;
         }
         .InputComentario{
             width: 100%;
-            margin-top: 1rem;
+            margin: 0rem;
+            margin-top: 1rem;   
         }
-        .InstaPubli{
-            margin-top: 0px;
-            width: 100%;
+        .instagram-media{
+
         }
     }
